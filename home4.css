@@ -1,0 +1,60 @@
+html,
+body {
+  background-image: url("background2.png"), url("wall.png");
+  background-repeat: no-repeat, repeat;
+  background-position: center top;
+  background-size: 2134px 3126px, 400px 304px;
+}
+h1 {
+  text-align: center;
+  color: #FF54D8;
+  text-shadow: 3px 2px lightblue;
+}
+h2 {
+  text-align: center;
+  background: white;
+  outline-style: double;
+  outline-color: #3CFF92;
+  outline-width: 10px;
+  font-size: 20px;
+  margin: 90px;
+}
+h3 {
+  text-align: center;
+}
+.hide {
+    visibility: hidden;
+}
+p {
+  background: white;
+  margin: 60px;
+  outline-style: double;
+  outline-color: #FF54D8;
+  outline-width: 10px;
+}
+a:link {
+  background: white;
+  margin: 600px;
+  text-align: center;
+  outline-style: double;
+  outline-color: #3CFF92;
+  outline-width: 10px;
+  color: #AA39FE;
+}
+a:hover {
+  color: #3CFF92;
+}
+.center-text {
+  text-align: center;
+}
+iframe {
+  outline-style: double;
+  outline-color: blue;
+  outline-width: 10px;
+  display: block;
+  margin: 0 auto;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
